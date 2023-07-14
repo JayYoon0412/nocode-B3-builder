@@ -1,0 +1,24 @@
+2023-04-29 17:04:26,611 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [lastStandingRule]
+2023-04-29 17:04:29,218 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:04:31,516 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:04:36,094 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:04:40,359 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 100.0
+2023-04-29 17:04:46,445 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 100.0
+2023-04-29 17:04:48,411 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 100.0
+2023-04-29 17:05:04,104 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [lastStandingRule]
+2023-04-29 17:05:05,787 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:05:08,112 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:36:25,229 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [lastStandingRule]
+2023-04-29 17:36:27,437 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:36:30,082 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:42:29,055 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [lastStandingRule]
+2023-04-29 17:43:58,116 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:44:00,147 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:49:09,791 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:49:12,118 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:51:17,986 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:51:20,963 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:51:43,758 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:54:20,729 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 17:54:26,824 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 17:59:54,050 INFO o.u.SaveManager [JavaFX Application Thread] save file does not exist; creating default

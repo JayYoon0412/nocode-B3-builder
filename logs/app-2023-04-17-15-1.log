@@ -1,0 +1,24 @@
+2023-04-17 15:16:48,868 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@790f6673] added to queue with priority 0
+2023-04-17 15:16:48,901 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@790f6673]
+2023-04-17 15:16:48,901 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@790f6673]
+2023-04-17 15:16:48,902 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event oogasalad.model.engine.events.StartGameEvent@790f6673
+2023-04-17 15:16:48,902 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartTurnEvent@4ca470c8] added to queue with priority 10
+2023-04-17 15:16:48,902 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=oogasalad.model.engine.events.StartTurnEvent@4ca470c8]
+2023-04-17 15:16:48,902 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=oogasalad.model.engine.events.StartTurnEvent@4ca470c8]
+2023-04-17 15:16:48,903 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event oogasalad.model.engine.events.StartTurnEvent@4ca470c8
+2023-04-17 15:16:48,903 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartTurnEvent@3f99a44f] added to queue with priority 10
+2023-04-17 15:16:48,903 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.RollDieAndMoveAction@4e25f150 added to queue with priority 1
+2023-04-17 15:16:48,910 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.RollDieAndMoveAction@4e25f150
+2023-04-17 15:16:48,910 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.RollDieAndMoveAction@4e25f150
+2023-04-17 15:16:53,832 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event oogasalad.model.engine.events.DieRolledEvent@116ae920
+2023-04-17 15:16:53,837 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event oogasalad.model.engine.events.TileLandedEvent@3bfd89b7
+2023-04-17 15:16:53,838 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.BuyAction@58cf59a9 added to queue with priority 1
+2023-04-17 15:16:53,838 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.BuyAction@58cf59a9
+2023-04-17 15:16:53,838 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.BuyAction@58cf59a9
+2023-04-17 15:16:55,172 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=oogasalad.model.engine.events.StartTurnEvent@3f99a44f]
+2023-04-17 15:16:55,173 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=oogasalad.model.engine.events.StartTurnEvent@3f99a44f]
+2023-04-17 15:16:55,173 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event oogasalad.model.engine.events.StartTurnEvent@3f99a44f
+2023-04-17 15:16:55,173 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartTurnEvent@285e3de9] added to queue with priority 10
+2023-04-17 15:16:55,173 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.RollDieAndMoveAction@11eccd72 added to queue with priority 1
+2023-04-17 15:16:55,173 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.RollDieAndMoveAction@11eccd72
+2023-04-17 15:16:55,173 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.RollDieAndMoveAction@11eccd72

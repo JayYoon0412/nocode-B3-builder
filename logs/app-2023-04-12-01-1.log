@@ -1,0 +1,36 @@
+2023-04-12 01:52:10,260 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_GAME, attributeMap={}]] added to queue with priority 0
+2023-04-12 01:52:10,283 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=Event[type=START_GAME, attributeMap={}]]
+2023-04-12 01:52:10,284 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=Event[type=START_GAME, attributeMap={}]]
+2023-04-12 01:52:10,284 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=START_GAME, attributeMap={}]
+2023-04-12 01:52:10,285 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_TURN, attributeMap={}]] added to queue with priority 10
+2023-04-12 01:52:10,285 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 01:52:10,285 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 01:52:10,285 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=START_TURN, attributeMap={}]
+2023-04-12 01:52:10,285 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_TURN, attributeMap={}]] added to queue with priority 10
+2023-04-12 01:52:10,285 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.RollDieAndMoveAction@2c7e439d added to queue with priority 1
+2023-04-12 01:52:10,294 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.RollDieAndMoveAction@2c7e439d
+2023-04-12 01:52:10,294 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.RollDieAndMoveAction@2c7e439d
+2023-04-12 01:52:11,849 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=DIE_ROLLED, attributeMap={value=IntAttribute{value=IntegerProperty [value: 3]}}]
+2023-04-12 01:52:11,853 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=LANDED, attributeMap={tile=TileAttribute{value=IntegerProperty [value: 4]}}]
+2023-04-12 01:52:11,854 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.BuyAction@2e2561a7 added to queue with priority 1
+2023-04-12 01:52:11,855 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.BuyAction@2e2561a7
+2023-04-12 01:52:11,855 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.BuyAction@2e2561a7
+2023-04-12 01:52:13,363 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 01:52:13,363 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 01:52:13,363 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=START_TURN, attributeMap={}]
+2023-04-12 01:52:13,364 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_TURN, attributeMap={}]] added to queue with priority 10
+2023-04-12 01:52:13,364 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.RollDieAndMoveAction@48db1307 added to queue with priority 1
+2023-04-12 01:52:13,364 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.RollDieAndMoveAction@48db1307
+2023-04-12 01:52:13,364 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.RollDieAndMoveAction@48db1307
+2023-04-12 01:52:14,086 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=DIE_ROLLED, attributeMap={value=IntAttribute{value=IntegerProperty [value: 6]}}]
+2023-04-12 01:52:14,095 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=LANDED, attributeMap={tile=TileAttribute{value=IntegerProperty [value: 2]}}]
+2023-04-12 01:52:14,096 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.BuyAction@2b2d6a7c added to queue with priority 1
+2023-04-12 01:52:14,096 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.BuyAction@2b2d6a7c
+2023-04-12 01:52:14,096 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.BuyAction@2b2d6a7c
+2023-04-12 01:52:14,861 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 01:52:14,861 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 01:52:14,861 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=START_TURN, attributeMap={}]
+2023-04-12 01:52:14,861 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_TURN, attributeMap={}]] added to queue with priority 10
+2023-04-12 01:52:14,862 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.RollDieAndMoveAction@48b09d38 added to queue with priority 1
+2023-04-12 01:52:14,862 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.RollDieAndMoveAction@48b09d38
+2023-04-12 01:52:14,862 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.RollDieAndMoveAction@48b09d38

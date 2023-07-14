@@ -1,0 +1,24 @@
+2023-04-30 19:00:44,385 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:00:44,536 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:02:36,259 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:02:36,431 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:12:37,560 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:12:37,693 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:12:37,766 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:13:03,298 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:13:03,433 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:13:03,511 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [finiteBoardWinRule]
+2023-04-30 19:23:14,467 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:25:10,441 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:25:10,560 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:25:10,691 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:25:47,532 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:25:47,649 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:25:47,781 WARN o.m.c.AbstractGameConstruct [main] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-30 19:43:35,882 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@1e6b9a95] added to queue with priority 5
+2023-04-30 19:43:36,172 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@a0a9fa5] added to queue with priority 5
+2023-04-30 19:43:36,362 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@1e6308a9] added to queue with priority 5
+2023-04-30 19:43:36,365 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@1e6308a9]
+2023-04-30 19:43:36,366 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@1e6308a9]
+2023-04-30 19:43:36,369 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@1e6308a9
+2023-04-30 19:43:36,512 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@5116ac09] added to queue with priority 5

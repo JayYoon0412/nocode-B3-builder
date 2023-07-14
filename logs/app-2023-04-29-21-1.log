@@ -1,0 +1,118 @@
+2023-04-29 21:00:21,088 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:00:21,095 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:00:21,151 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:00:21,151 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:00:23,686 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:00:23,687 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:00:23,725 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:00:23,725 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:00:24,106 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:00:26,642 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:00:28,836 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:02:17,527 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:02:17,531 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:02:17,581 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:02:17,581 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:02:19,794 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:02:19,794 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:02:19,816 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:02:19,816 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:02:20,228 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:02:22,240 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:02:23,891 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:04:17,936 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:17,956 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:18,007 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:18,008 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:20,371 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:20,372 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:20,397 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:20,397 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:20,824 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:04:23,104 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:04:45,237 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:45,240 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:45,291 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:45,291 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:47,536 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:47,536 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:04:47,565 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:47,565 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:04:47,947 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:04:50,163 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:05:03,392 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:05:05,572 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:05:07,695 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1600.0
+2023-04-29 21:05:14,960 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1600.0
+2023-04-29 21:05:16,788 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1600.0
+2023-04-29 21:05:18,355 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1400.0
+2023-04-29 21:05:20,446 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1400.0
+2023-04-29 21:05:23,794 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1400.0
+2023-04-29 21:09:02,616 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:09:02,619 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:09:02,672 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:09:02,672 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:09:05,612 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:09:05,613 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:09:05,646 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:09:05,646 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:09:06,020 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:09:08,295 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-29 21:10:52,023 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:10:52,026 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:10:52,082 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:10:52,082 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:10:54,102 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:10:54,103 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:10:54,125 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:10:54,126 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:10:54,516 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:32:23,138 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:32:23,142 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:32:23,187 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:32:23,187 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:32:25,750 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:32:25,751 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:32:25,777 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:32:25,778 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:32:26,248 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:32:29,037 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1650.0
+2023-04-29 21:32:31,792 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1650.0
+2023-04-29 21:32:35,021 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1550.0
+2023-04-29 21:32:37,762 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1200.0
+2023-04-29 21:57:51,296 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:57:51,302 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:57:51,365 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:57:51,365 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:57:57,066 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:57:57,067 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:57:57,090 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:57:57,091 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:57:57,535 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:58:13,067 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 200.0
+2023-04-29 21:58:34,406 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:58:34,411 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:58:34,469 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:58:34,469 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:58:36,850 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:58:36,851 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:58:36,877 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:58:36,877 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:58:37,322 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:58:39,161 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 21:58:45,992 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 21:59:21,475 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:59:21,479 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:59:21,539 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:59:21,539 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:59:24,219 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:59:24,220 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-29 21:59:24,259 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:59:24,260 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPiecesPerPlayerRule]
+2023-04-29 21:59:24,660 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-29 21:59:28,205 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0
+2023-04-29 21:59:31,523 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 350.0
+2023-04-29 21:59:35,963 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 100.0
+2023-04-29 21:59:38,913 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 100.0
+2023-04-29 21:59:41,012 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 100.0
+2023-04-29 21:59:42,764 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 0.0

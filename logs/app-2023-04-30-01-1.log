@@ -1,0 +1,341 @@
+2023-04-30 01:20:04,343 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:20:04,353 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:20:04,716 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 01:20:06,026 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 01:20:06,054 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 01:20:20,724 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-04-30 01:20:22,673 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-04-30 01:20:24,415 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 01:20:26,466 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:20:38,271 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:25:07,392 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:25:07,394 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:25:07,508 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 01:25:08,770 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 01:25:08,775 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 01:25:11,813 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:25:11,815 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:25:12,031 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 01:25:12,969 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 01:25:12,970 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 01:25:14,784 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-04-30 01:25:17,762 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 01:25:20,513 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-04-30 01:25:22,564 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 2000.0
+2023-04-30 01:25:27,604 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1200.0
+2023-04-30 01:25:29,853 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1100.0
+2023-04-30 01:25:32,897 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:25:41,637 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:25:46,323 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:25:48,123 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:25:51,280 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1200.0
+2023-04-30 01:25:54,341 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1450.0
+2023-04-30 01:25:56,656 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:25:59,033 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:02,929 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1100.0
+2023-04-30 01:26:05,825 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 650.0
+2023-04-30 01:26:07,656 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:08,818 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:10,962 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 650.0
+2023-04-30 01:26:12,989 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:15,677 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:17,680 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 950.0
+2023-04-30 01:26:20,371 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 900.0
+2023-04-30 01:26:22,982 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 400.0
+2023-04-30 01:26:24,916 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:26,911 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:28,946 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 600.0
+2023-04-30 01:26:32,219 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:34,910 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:36,812 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 650.0
+2023-04-30 01:26:40,071 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 850.0
+2023-04-30 01:26:41,925 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:43,008 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:44,420 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 300.0
+2023-04-30 01:26:46,794 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:47,954 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:49,238 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:50,451 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:52,424 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:53,232 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:54,759 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:55,862 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:56,989 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:57,827 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:26:58,454 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player 7d856a39-1ee7-41bf-8ee4-2e62907dc540 Removed from Game Due to Low Score Condition
+2023-04-30 01:26:59,879 INFO o.m.e.a.CheckWinStateAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Winning Condition
+2023-04-30 01:27:00,616 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 150.0
+2023-04-30 01:27:03,459 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:04,739 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:05,725 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:06,696 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:07,905 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:08,877 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:09,663 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player d5760099-1acc-43dd-8199-c05b68a16a3b Removed from Game Due to Low Score Condition
+2023-04-30 01:27:10,941 INFO o.m.e.a.CheckWinStateAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Winning Condition
+2023-04-30 01:27:11,596 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 300.0
+2023-04-30 01:27:13,762 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:14,677 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:16,021 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1150.0
+2023-04-30 01:27:17,729 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 900.0
+2023-04-30 01:27:21,132 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:22,188 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:28,498 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:31,073 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:33,988 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:35,310 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:37,805 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:38,930 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:41,197 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-04-30 01:27:43,606 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:44,774 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 01:27:45,494 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player 7afac2f0-7e17-4b60-aff7-3060a625feb9 Removed from Game Due to Low Score Condition
+2023-04-30 01:27:46,649 INFO o.m.e.a.CheckWinStateAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Winning Condition
+2023-04-30 01:27:46,649 INFO o.m.e.a.CheckWinStateAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-04-30 01:45:34,360 ERROR o.u.SaveManager [main] unable to read save file data/0hbvOqXKOQdhpgu3aLIO/rules.json
+com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'oogasalad.model.engine.rules.NumberOfPlayerPieceRule' as a subtype of `oogasalad.model.engine.rules.Rule`: no such class found
+ at [Source: (File); line: 15, column: 14] (through reference chain: java.lang.Object[][1])
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2078) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1569) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:263) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:218) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:26) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:121) [classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:71) [classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:30) [classes/:?]
+	at oogasalad.controller.GameControllerTest.setUp(GameControllerTest.java:35) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 01:45:34,410 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@705202d1] added to queue with priority 3
+2023-04-30 01:45:34,616 ERROR o.u.SaveManager [main] unable to read save file data/0hbvOqXKOQdhpgu3aLIO/rules.json
+com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'oogasalad.model.engine.rules.NumberOfPlayerPieceRule' as a subtype of `oogasalad.model.engine.rules.Rule`: no such class found
+ at [Source: (File); line: 15, column: 14] (through reference chain: java.lang.Object[][1])
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2078) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1569) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:263) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:218) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:26) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:121) [classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:71) [classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:30) [classes/:?]
+	at oogasalad.controller.GameControllerTest.setUp(GameControllerTest.java:35) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 01:45:34,622 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@19f040ba] added to queue with priority 3
+2023-04-30 01:45:34,858 ERROR o.u.SaveManager [main] unable to read save file data/0hbvOqXKOQdhpgu3aLIO/rules.json
+com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'oogasalad.model.engine.rules.NumberOfPlayerPieceRule' as a subtype of `oogasalad.model.engine.rules.Rule`: no such class found
+ at [Source: (File); line: 15, column: 14] (through reference chain: java.lang.Object[][1])
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2078) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1569) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:263) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:218) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:26) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:121) [classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:71) [classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:30) [classes/:?]
+	at oogasalad.controller.GameControllerTest.setUp(GameControllerTest.java:35) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 01:45:34,869 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3eba57a7] added to queue with priority 3
+2023-04-30 01:45:34,879 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@3eba57a7]
+2023-04-30 01:45:34,879 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3eba57a7]
+2023-04-30 01:45:34,883 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@3eba57a7
+2023-04-30 01:45:35,024 ERROR o.u.SaveManager [main] unable to read save file data/0hbvOqXKOQdhpgu3aLIO/rules.json
+com.fasterxml.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'oogasalad.model.engine.rules.NumberOfPlayerPieceRule' as a subtype of `oogasalad.model.engine.rules.Rule`: no such class found
+ at [Source: (File); line: 15, column: 14] (through reference chain: java.lang.Object[][1])
+	at com.fasterxml.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:43) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2078) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1569) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:76) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:66) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:159) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:125) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:110) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:263) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:218) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:26) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:121) [classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:71) [classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:30) [classes/:?]
+	at oogasalad.controller.GameControllerTest.setUp(GameControllerTest.java:35) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 01:45:35,029 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3703bf3c] added to queue with priority 3
+2023-04-30 01:46:37,668 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@1b812421] added to queue with priority 3
+2023-04-30 01:46:37,909 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@7180e701] added to queue with priority 3
+2023-04-30 01:46:38,183 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@61e45f87] added to queue with priority 3
+2023-04-30 01:46:38,193 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@61e45f87]
+2023-04-30 01:46:38,194 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@61e45f87]
+2023-04-30 01:46:38,200 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@61e45f87
+2023-04-30 01:46:38,358 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@6d91790b] added to queue with priority 3
+2023-04-30 01:48:30,507 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:48:30,510 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 01:48:30,816 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 01:48:33,043 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 01:48:33,053 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 01:48:33,797 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-04-30 01:49:15,326 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@25cc7470] added to queue with priority 3
+2023-04-30 01:49:15,588 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@4cee7fa0] added to queue with priority 3
+2023-04-30 01:49:15,848 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@4b6ac111] added to queue with priority 3
+2023-04-30 01:49:15,858 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@4b6ac111]
+2023-04-30 01:49:15,859 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@4b6ac111]
+2023-04-30 01:49:15,864 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@4b6ac111
+2023-04-30 01:49:16,016 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@7808fb9] added to queue with priority 3
+2023-04-30 01:50:33,348 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@4fcc529] added to queue with priority 3
+2023-04-30 01:50:33,786 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@2bc12da] added to queue with priority 3
+2023-04-30 01:50:33,981 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@42f22995] added to queue with priority 3
+2023-04-30 01:50:34,133 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@54da32dc] added to queue with priority 3
+2023-04-30 01:51:17,998 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@2f4919b0] added to queue with priority 3
+2023-04-30 01:51:20,404 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@29896529] added to queue with priority 3
+2023-04-30 01:51:20,669 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@7e87ef9e] added to queue with priority 3
+2023-04-30 01:51:20,847 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@46fc522d] added to queue with priority 3
+2023-04-30 01:55:10,907 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@4cfbaf4] added to queue with priority 3
+2023-04-30 01:55:12,901 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@4cfbaf4]
+2023-04-30 01:55:12,901 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@4cfbaf4]
+2023-04-30 01:55:12,903 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@4cfbaf4
+2023-04-30 01:55:12,905 INFO o.m.e.r.NumberOfPlayersRule [main] Add Create Players Action to ActionQueue
+2023-04-30 01:55:12,905 TRACE o.m.e.SimpleActionQueue [main] action oogasalad.model.engine.actions.CreatePlayersAction@664212ab added to queue with priority 0
+2023-04-30 01:55:12,905 TRACE o.m.e.SimpleActionQueue [main] polled oogasalad.model.engine.actions.CreatePlayersAction@664212ab
+2023-04-30 01:55:12,905 TRACE o.m.e.SimpleEngine [main] running action oogasalad.model.engine.actions.CreatePlayersAction@664212ab
+2023-04-30 01:55:13,571 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@61ffd148] added to queue with priority 3
+2023-04-30 01:55:13,583 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@61ffd148]
+2023-04-30 01:55:13,583 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@61ffd148]
+2023-04-30 01:55:13,583 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@61ffd148
+2023-04-30 01:55:13,583 INFO o.m.e.r.NumberOfPlayersRule [main] Add Create Players Action to ActionQueue
+2023-04-30 01:55:13,584 TRACE o.m.e.SimpleActionQueue [main] action oogasalad.model.engine.actions.CreatePlayersAction@d13baac added to queue with priority 0
+2023-04-30 01:55:13,584 TRACE o.m.e.SimpleActionQueue [main] polled oogasalad.model.engine.actions.CreatePlayersAction@d13baac
+2023-04-30 01:55:13,584 TRACE o.m.e.SimpleEngine [main] running action oogasalad.model.engine.actions.CreatePlayersAction@d13baac
+2023-04-30 01:55:13,834 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@7b2bf745] added to queue with priority 3
+2023-04-30 01:55:13,840 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@7b2bf745]
+2023-04-30 01:55:13,841 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@7b2bf745]
+2023-04-30 01:55:13,841 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@7b2bf745
+2023-04-30 01:55:13,841 INFO o.m.e.r.NumberOfPlayersRule [main] Add Create Players Action to ActionQueue
+2023-04-30 01:55:13,841 TRACE o.m.e.SimpleActionQueue [main] action oogasalad.model.engine.actions.CreatePlayersAction@2ba1209b added to queue with priority 0
+2023-04-30 01:55:13,841 TRACE o.m.e.SimpleActionQueue [main] polled oogasalad.model.engine.actions.CreatePlayersAction@2ba1209b
+2023-04-30 01:55:13,841 TRACE o.m.e.SimpleEngine [main] running action oogasalad.model.engine.actions.CreatePlayersAction@2ba1209b
+2023-04-30 01:55:14,023 TRACE o.m.e.SimpleActionQueue [main] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@20801cbb] added to queue with priority 3
+2023-04-30 01:55:14,026 TRACE o.m.e.SimpleActionQueue [main] polled EventAction[event=oogasalad.model.engine.events.StartGameEvent@20801cbb]
+2023-04-30 01:55:14,026 TRACE o.m.e.SimpleEngine [main] running action EventAction[event=oogasalad.model.engine.events.StartGameEvent@20801cbb]
+2023-04-30 01:55:14,026 TRACE o.m.e.SimpleEngine [main] triggering event oogasalad.model.engine.events.StartGameEvent@20801cbb
+2023-04-30 01:55:14,026 INFO o.m.e.r.NumberOfPlayersRule [main] Add Create Players Action to ActionQueue
+2023-04-30 01:55:14,026 TRACE o.m.e.SimpleActionQueue [main] action oogasalad.model.engine.actions.CreatePlayersAction@3caafa67 added to queue with priority 0
+2023-04-30 01:55:14,026 TRACE o.m.e.SimpleActionQueue [main] polled oogasalad.model.engine.actions.CreatePlayersAction@3caafa67
+2023-04-30 01:55:14,026 TRACE o.m.e.SimpleEngine [main] running action oogasalad.model.engine.actions.CreatePlayersAction@3caafa67

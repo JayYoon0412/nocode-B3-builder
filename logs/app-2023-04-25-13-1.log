@@ -1,0 +1,7 @@
+2023-04-25 13:27:40,739 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1800.0
+2023-04-25 13:27:44,192 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1600.0
+2023-04-25 13:27:47,126 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1400.0
+2023-04-25 13:27:49,830 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1200.0
+2023-04-25 13:27:54,066 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1000.0
+2023-04-25 13:27:56,691 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 800.0
+2023-04-25 13:28:02,184 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 600.0

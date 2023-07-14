@@ -1,0 +1,541 @@
+2023-05-03 11:11:21,614 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-05-03 11:12:06,069 WARN o.v.b.BuilderView [JavaFX Application Thread] ERROR -- Got a non-image or nothing from file.
+2023-05-03 11:12:43,932 INFO o.v.b.BuilderView [JavaFX Application Thread] Got an image from: /Users/jayyoon/Desktop/snakes-ladders-board-game-boardgame-cartoon-261240493.jpeg
+2023-05-03 11:12:45,505 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {565.000000, 233.000000} and board coordinates {195.500000, 145.000000}
+2023-05-03 11:12:49,762 ERROR o.v.b.p.PopupForm [JavaFX Application Thread] Input for Image is invalid
+2023-05-03 11:12:58,146 ERROR o.v.b.p.PopupForm [JavaFX Application Thread] Input for Image is invalid
+2023-05-03 11:13:07,397 ERROR o.v.b.p.PopupForm [JavaFX Application Thread] Input for Image is invalid
+2023-05-03 11:13:15,270 ERROR o.v.b.p.PopupForm [JavaFX Application Thread] Input for Image is invalid
+2023-05-03 11:13:16,847 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {556.000000, 262.000000} and board coordinates {186.500000, 174.000000}
+2023-05-03 11:13:17,765 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {663.000000, 291.000000} and board coordinates {293.500000, 203.000000}
+2023-05-03 11:13:20,181 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {692.000000, 293.000000} and board coordinates {322.500000, 205.000000}
+2023-05-03 11:13:29,941 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {660.000000, 273.000000} and board coordinates {290.500000, 185.000000}
+2023-05-03 11:13:30,761 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {652.000000, 289.000000} and board coordinates {282.500000, 201.000000}
+2023-05-03 11:13:31,535 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {652.000000, 289.000000} and board coordinates {282.500000, 201.000000}
+2023-05-03 11:13:33,363 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {542.000000, 274.000000} and board coordinates {172.500000, 186.000000}
+2023-05-03 11:13:43,527 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:14:48,097 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:16:33,494 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/0xMbocynQcUn1nTa8Yfj/rules.json
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4821) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4723) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:78) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 11:16:33,506 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/0xMbocynQcUn1nTa8Yfj/info.json
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4821) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4723) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:81) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 11:16:33,700 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:18:16,611 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:18:19,104 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/0xMbocynQcUn1nTa8Yfj/rules.json
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4821) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4723) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:78) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 11:18:19,111 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/0xMbocynQcUn1nTa8Yfj/info.json
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4821) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4723) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:81) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 11:18:19,239 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:18:21,751 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:18:24,186 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:18:26,283 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@4eba1a6a
+2023-05-03 11:18:26,284 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@4eba1a6a
+2023-05-03 11:18:26,284 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@4eba1a6a
+2023-05-03 11:18:26,284 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@4eba1a6a
+2023-05-03 11:18:26,336 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 11:18:28,749 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 11:18:28,751 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 11:18:28,751 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-05-03 11:18:34,947 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@48cedcf7
+2023-05-03 11:18:34,961 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@48cedcf7
+2023-05-03 11:18:34,979 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@48cedcf7
+2023-05-03 11:18:34,992 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@48cedcf7
+2023-05-03 11:18:35,037 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 11:18:36,526 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 11:18:36,552 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 11:18:36,559 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:19:17,525 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@ac731322
+2023-05-03 11:19:17,549 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@ac731322
+2023-05-03 11:19:17,574 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@ac731322
+2023-05-03 11:19:17,587 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@ac731322
+2023-05-03 11:19:17,678 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 11:19:18,659 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 11:19:18,668 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 11:19:18,672 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:22:14,968 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-05-03 11:22:40,692 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {456.000000, 184.000000} and board coordinates {67.500000, 96.000000}
+2023-05-03 11:22:40,733 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:22:44,419 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {479.000000, 184.000000} and board coordinates {90.500000, 96.000000}
+2023-05-03 11:22:46,830 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {571.000000, 214.000000} and board coordinates {182.500000, 126.000000}
+2023-05-03 11:22:46,834 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:22:50,852 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {526.000000, 179.000000} and board coordinates {137.500000, 91.000000}
+2023-05-03 11:22:53,461 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {580.000000, 290.000000} and board coordinates {191.500000, 202.000000}
+2023-05-03 11:22:53,465 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:22:58,061 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {566.000000, 169.000000} and board coordinates {177.500000, 81.000000}
+2023-05-03 11:23:00,831 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {574.000000, 182.000000} and board coordinates {185.500000, 94.000000}
+2023-05-03 11:23:02,988 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {624.000000, 180.000000} and board coordinates {235.500000, 92.000000}
+2023-05-03 11:23:02,993 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:05,627 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {628.000000, 168.000000} and board coordinates {239.500000, 80.000000}
+2023-05-03 11:23:09,309 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {628.000000, 167.000000} and board coordinates {239.500000, 79.000000}
+2023-05-03 11:23:11,393 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {714.000000, 163.000000} and board coordinates {325.500000, 75.000000}
+2023-05-03 11:23:11,398 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:14,687 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {665.000000, 170.000000} and board coordinates {276.500000, 82.000000}
+2023-05-03 11:23:17,527 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {738.000000, 166.000000} and board coordinates {349.500000, 78.000000}
+2023-05-03 11:23:17,529 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:20,365 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {719.000000, 173.000000} and board coordinates {330.500000, 85.000000}
+2023-05-03 11:23:22,157 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {836.000000, 227.000000} and board coordinates {447.500000, 139.000000}
+2023-05-03 11:23:22,159 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:24,239 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {759.000000, 170.000000} and board coordinates {370.500000, 82.000000}
+2023-05-03 11:23:26,076 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {481.000000, 239.000000} and board coordinates {92.500000, 151.000000}
+2023-05-03 11:23:26,080 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:30,713 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {823.000000, 164.000000} and board coordinates {434.500000, 76.000000}
+2023-05-03 11:23:32,858 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {453.000000, 283.000000} and board coordinates {64.500000, 195.000000}
+2023-05-03 11:23:32,862 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:35,567 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {457.000000, 212.000000} and board coordinates {68.500000, 124.000000}
+2023-05-03 11:23:37,469 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {535.000000, 311.000000} and board coordinates {146.500000, 223.000000}
+2023-05-03 11:23:37,470 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:39,831 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {521.000000, 225.000000} and board coordinates {132.500000, 137.000000}
+2023-05-03 11:23:41,600 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {593.000000, 281.000000} and board coordinates {204.500000, 193.000000}
+2023-05-03 11:23:41,616 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:42,877 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {555.000000, 220.000000} and board coordinates {166.500000, 132.000000}
+2023-05-03 11:23:44,143 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {618.000000, 291.000000} and board coordinates {229.500000, 203.000000}
+2023-05-03 11:23:44,147 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:46,137 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {615.000000, 211.000000} and board coordinates {226.500000, 123.000000}
+2023-05-03 11:23:47,725 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {607.000000, 259.000000} and board coordinates {218.500000, 171.000000}
+2023-05-03 11:23:47,727 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:50,401 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {666.000000, 210.000000} and board coordinates {277.500000, 122.000000}
+2023-05-03 11:23:51,892 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {730.000000, 239.000000} and board coordinates {341.500000, 151.000000}
+2023-05-03 11:23:51,893 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:53,745 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {700.000000, 217.000000} and board coordinates {311.500000, 129.000000}
+2023-05-03 11:23:55,501 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {801.000000, 281.000000} and board coordinates {412.500000, 193.000000}
+2023-05-03 11:23:55,504 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:23:57,405 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {764.000000, 224.000000} and board coordinates {375.500000, 136.000000}
+2023-05-03 11:23:59,051 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {753.000000, 295.000000} and board coordinates {364.500000, 207.000000}
+2023-05-03 11:23:59,055 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:01,105 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {828.000000, 228.000000} and board coordinates {439.500000, 140.000000}
+2023-05-03 11:24:03,417 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {492.000000, 301.000000} and board coordinates {103.500000, 213.000000}
+2023-05-03 11:24:03,420 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:06,403 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {480.000000, 284.000000} and board coordinates {91.500000, 196.000000}
+2023-05-03 11:24:08,051 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {539.000000, 303.000000} and board coordinates {150.500000, 215.000000}
+2023-05-03 11:24:08,054 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:10,494 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {511.000000, 261.000000} and board coordinates {122.500000, 173.000000}
+2023-05-03 11:24:12,066 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {623.000000, 354.000000} and board coordinates {234.500000, 266.000000}
+2023-05-03 11:24:12,069 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:14,403 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {561.000000, 265.000000} and board coordinates {172.500000, 177.000000}
+2023-05-03 11:24:15,776 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {641.000000, 291.000000} and board coordinates {252.500000, 203.000000}
+2023-05-03 11:24:15,779 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:18,013 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {600.000000, 268.000000} and board coordinates {211.500000, 180.000000}
+2023-05-03 11:24:19,459 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {684.000000, 285.000000} and board coordinates {295.500000, 197.000000}
+2023-05-03 11:24:19,460 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:20,836 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {669.000000, 256.000000} and board coordinates {280.500000, 168.000000}
+2023-05-03 11:24:22,474 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {706.000000, 401.000000} and board coordinates {317.500000, 313.000000}
+2023-05-03 11:24:22,477 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:24,379 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {726.000000, 267.000000} and board coordinates {337.500000, 179.000000}
+2023-05-03 11:24:26,266 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {788.000000, 283.000000} and board coordinates {399.500000, 195.000000}
+2023-05-03 11:24:26,272 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:29,751 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {780.000000, 291.000000} and board coordinates {391.500000, 203.000000}
+2023-05-03 11:24:31,365 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {828.000000, 349.000000} and board coordinates {439.500000, 261.000000}
+2023-05-03 11:24:31,368 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:34,062 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {816.000000, 267.000000} and board coordinates {427.500000, 179.000000}
+2023-05-03 11:24:35,624 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {572.000000, 359.000000} and board coordinates {183.500000, 271.000000}
+2023-05-03 11:24:35,629 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:38,106 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {458.000000, 322.000000} and board coordinates {69.500000, 234.000000}
+2023-05-03 11:24:39,594 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {548.000000, 454.000000} and board coordinates {159.500000, 366.000000}
+2023-05-03 11:24:39,596 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:42,137 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {515.000000, 314.000000} and board coordinates {126.500000, 226.000000}
+2023-05-03 11:24:43,626 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {605.000000, 369.000000} and board coordinates {216.500000, 281.000000}
+2023-05-03 11:24:43,630 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:45,445 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {552.000000, 310.000000} and board coordinates {163.500000, 222.000000}
+2023-05-03 11:24:46,758 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {662.000000, 358.000000} and board coordinates {273.500000, 270.000000}
+2023-05-03 11:24:46,760 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:48,305 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {611.000000, 313.000000} and board coordinates {222.500000, 225.000000}
+2023-05-03 11:24:49,825 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {703.000000, 379.000000} and board coordinates {314.500000, 291.000000}
+2023-05-03 11:24:49,827 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:52,838 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {655.000000, 314.000000} and board coordinates {266.500000, 226.000000}
+2023-05-03 11:24:54,243 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {791.000000, 372.000000} and board coordinates {402.500000, 284.000000}
+2023-05-03 11:24:54,250 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:55,654 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {717.000000, 324.000000} and board coordinates {328.500000, 236.000000}
+2023-05-03 11:24:57,266 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {700.000000, 410.000000} and board coordinates {311.500000, 322.000000}
+2023-05-03 11:24:57,272 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:24:59,914 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {767.000000, 313.000000} and board coordinates {378.500000, 225.000000}
+2023-05-03 11:25:02,850 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {816.000000, 327.000000} and board coordinates {427.500000, 239.000000}
+2023-05-03 11:25:02,853 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:07,147 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {822.000000, 322.000000} and board coordinates {433.500000, 234.000000}
+2023-05-03 11:25:09,226 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {642.000000, 514.000000} and board coordinates {253.500000, 426.000000}
+2023-05-03 11:25:09,231 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:11,771 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {459.000000, 359.000000} and board coordinates {70.500000, 271.000000}
+2023-05-03 11:25:19,134 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {511.000000, 394.000000} and board coordinates {122.500000, 306.000000}
+2023-05-03 11:25:19,139 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:21,996 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {524.000000, 378.000000} and board coordinates {135.500000, 290.000000}
+2023-05-03 11:25:24,217 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {523.000000, 379.000000} and board coordinates {134.500000, 291.000000}
+2023-05-03 11:25:26,600 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {570.000000, 438.000000} and board coordinates {181.500000, 350.000000}
+2023-05-03 11:25:26,604 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:30,513 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {583.000000, 363.000000} and board coordinates {194.500000, 275.000000}
+2023-05-03 11:25:31,892 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {685.000000, 400.000000} and board coordinates {296.500000, 312.000000}
+2023-05-03 11:25:31,893 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:33,601 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {613.000000, 370.000000} and board coordinates {224.500000, 282.000000}
+2023-05-03 11:25:35,190 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {705.000000, 391.000000} and board coordinates {316.500000, 303.000000}
+2023-05-03 11:25:35,193 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:37,992 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {663.000000, 364.000000} and board coordinates {274.500000, 276.000000}
+2023-05-03 11:25:39,599 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {740.000000, 465.000000} and board coordinates {351.500000, 377.000000}
+2023-05-03 11:25:39,601 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:42,879 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {719.000000, 380.000000} and board coordinates {330.500000, 292.000000}
+2023-05-03 11:25:44,557 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {718.000000, 493.000000} and board coordinates {329.500000, 405.000000}
+2023-05-03 11:25:44,563 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:46,971 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {761.000000, 364.000000} and board coordinates {372.500000, 276.000000}
+2023-05-03 11:25:48,650 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {677.000000, 447.000000} and board coordinates {288.500000, 359.000000}
+2023-05-03 11:25:48,656 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:50,369 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {809.000000, 360.000000} and board coordinates {420.500000, 272.000000}
+2023-05-03 11:25:51,993 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {481.000000, 500.000000} and board coordinates {92.500000, 412.000000}
+2023-05-03 11:25:52,017 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:54,469 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {468.000000, 421.000000} and board coordinates {79.500000, 333.000000}
+2023-05-03 11:25:56,000 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {592.000000, 488.000000} and board coordinates {203.500000, 400.000000}
+2023-05-03 11:25:56,005 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:25:57,471 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {511.000000, 414.000000} and board coordinates {122.500000, 326.000000}
+2023-05-03 11:25:59,183 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {638.000000, 490.000000} and board coordinates {249.500000, 402.000000}
+2023-05-03 11:25:59,186 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:26:02,243 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {562.000000, 419.000000} and board coordinates {173.500000, 331.000000}
+2023-05-03 11:26:03,816 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {673.000000, 474.000000} and board coordinates {284.500000, 386.000000}
+2023-05-03 11:26:03,823 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:26:05,401 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {607.000000, 430.000000} and board coordinates {218.500000, 342.000000}
+2023-05-03 11:26:07,131 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {696.000000, 463.000000} and board coordinates {307.500000, 375.000000}
+2023-05-03 11:26:07,153 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:26:09,651 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {659.000000, 411.000000} and board coordinates {270.500000, 323.000000}
+2023-05-03 11:26:11,292 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {773.000000, 514.000000} and board coordinates {384.500000, 426.000000}
+2023-05-03 11:26:11,296 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:26:13,261 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {704.000000, 404.000000} and board coordinates {315.500000, 316.000000}
+2023-05-03 11:26:14,900 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {784.000000, 504.000000} and board coordinates {395.500000, 416.000000}
+2023-05-03 11:26:14,906 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:26:16,359 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {754.000000, 407.000000} and board coordinates {365.500000, 319.000000}
+2023-05-03 11:26:17,927 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {790.000000, 537.000000} and board coordinates {401.500000, 449.000000}
+2023-05-03 11:26:17,930 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-03 11:26:20,236 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {813.000000, 415.000000} and board coordinates {424.500000, 327.000000}
+2023-05-03 11:26:27,200 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:27,238 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test0
+2023-05-03 11:26:27,239 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {468.000000, 170.000000} and board coordinates {79.500000, 82.000000}
+2023-05-03 11:26:34,092 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {463.000000, 170.000000} and board coordinates {74.500000, 82.000000}
+2023-05-03 11:26:36,228 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:36,230 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test1
+2023-05-03 11:26:36,231 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {517.000000, 170.000000} and board coordinates {128.500000, 82.000000}
+2023-05-03 11:26:37,659 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {516.000000, 170.000000} and board coordinates {127.500000, 82.000000}
+2023-05-03 11:26:39,133 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:39,135 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test2
+2023-05-03 11:26:39,136 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {567.000000, 171.000000} and board coordinates {178.500000, 83.000000}
+2023-05-03 11:26:40,251 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {567.000000, 173.000000} and board coordinates {178.500000, 85.000000}
+2023-05-03 11:26:41,024 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:41,029 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test3
+2023-05-03 11:26:41,030 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {619.000000, 171.000000} and board coordinates {230.500000, 83.000000}
+2023-05-03 11:26:41,833 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {617.000000, 173.000000} and board coordinates {228.500000, 85.000000}
+2023-05-03 11:26:43,197 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {620.000000, 176.000000} and board coordinates {231.500000, 88.000000}
+2023-05-03 11:26:45,440 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:45,442 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test4
+2023-05-03 11:26:45,442 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {666.000000, 222.000000} and board coordinates {277.500000, 134.000000}
+2023-05-03 11:26:48,200 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {667.000000, 163.000000} and board coordinates {278.500000, 75.000000}
+2023-05-03 11:26:51,572 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:51,574 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test5
+2023-05-03 11:26:51,575 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {716.000000, 172.000000} and board coordinates {327.500000, 84.000000}
+2023-05-03 11:26:53,274 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {721.000000, 172.000000} and board coordinates {332.500000, 84.000000}
+2023-05-03 11:26:54,232 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:54,235 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test6
+2023-05-03 11:26:54,236 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {773.000000, 173.000000} and board coordinates {384.500000, 85.000000}
+2023-05-03 11:26:55,459 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {773.000000, 172.000000} and board coordinates {384.500000, 84.000000}
+2023-05-03 11:26:56,699 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:56,701 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test7
+2023-05-03 11:26:56,701 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {822.000000, 222.000000} and board coordinates {433.500000, 134.000000}
+2023-05-03 11:26:57,375 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {819.000000, 169.000000} and board coordinates {430.500000, 81.000000}
+2023-05-03 11:26:58,133 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:26:58,135 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test8
+2023-05-03 11:26:58,136 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {773.000000, 222.000000} and board coordinates {384.500000, 134.000000}
+2023-05-03 11:26:59,419 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {465.000000, 220.000000} and board coordinates {76.500000, 132.000000}
+2023-05-03 11:27:02,031 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:02,034 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test9
+2023-05-03 11:27:02,035 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {463.000000, 330.000000} and board coordinates {74.500000, 242.000000}
+2023-05-03 11:27:04,712 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {515.000000, 226.000000} and board coordinates {126.500000, 138.000000}
+2023-05-03 11:27:05,299 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:05,302 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test10
+2023-05-03 11:27:05,303 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {563.000000, 226.000000} and board coordinates {174.500000, 138.000000}
+2023-05-03 11:27:06,293 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {568.000000, 225.000000} and board coordinates {179.500000, 137.000000}
+2023-05-03 11:27:06,815 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:06,820 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test11
+2023-05-03 11:27:06,821 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {612.000000, 223.000000} and board coordinates {223.500000, 135.000000}
+2023-05-03 11:27:07,584 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {618.000000, 224.000000} and board coordinates {229.500000, 136.000000}
+2023-05-03 11:27:08,115 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:08,117 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test12
+2023-05-03 11:27:08,118 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {671.000000, 224.000000} and board coordinates {282.500000, 136.000000}
+2023-05-03 11:27:08,916 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {667.000000, 225.000000} and board coordinates {278.500000, 137.000000}
+2023-05-03 11:27:09,415 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:09,417 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test13
+2023-05-03 11:27:09,418 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {722.000000, 224.000000} and board coordinates {333.500000, 136.000000}
+2023-05-03 11:27:10,217 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {720.000000, 222.000000} and board coordinates {331.500000, 134.000000}
+2023-05-03 11:27:12,549 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:12,551 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test14
+2023-05-03 11:27:12,553 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {764.000000, 268.000000} and board coordinates {375.500000, 180.000000}
+2023-05-03 11:27:14,134 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {813.000000, 275.000000} and board coordinates {424.500000, 187.000000}
+2023-05-03 11:27:15,282 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:15,284 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test15
+2023-05-03 11:27:15,287 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {819.000000, 373.000000} and board coordinates {430.500000, 285.000000}
+2023-05-03 11:27:22,481 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {465.000000, 324.000000} and board coordinates {76.500000, 236.000000}
+2023-05-03 11:27:24,101 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {465.000000, 320.000000} and board coordinates {76.500000, 232.000000}
+2023-05-03 11:27:24,874 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:24,881 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test16
+2023-05-03 11:27:24,883 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {558.000000, 318.000000} and board coordinates {169.500000, 230.000000}
+2023-05-03 11:27:26,165 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {561.000000, 323.000000} and board coordinates {172.500000, 235.000000}
+2023-05-03 11:27:27,000 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:27,003 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test17
+2023-05-03 11:27:27,004 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {562.000000, 372.000000} and board coordinates {173.500000, 284.000000}
+2023-05-03 11:27:29,882 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {567.000000, 375.000000} and board coordinates {178.500000, 287.000000}
+2023-05-03 11:27:30,933 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {564.000000, 376.000000} and board coordinates {175.500000, 288.000000}
+2023-05-03 11:27:31,708 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:31,710 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test18
+2023-05-03 11:27:31,711 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {612.000000, 374.000000} and board coordinates {223.500000, 286.000000}
+2023-05-03 11:27:32,699 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {617.000000, 374.000000} and board coordinates {228.500000, 286.000000}
+2023-05-03 11:27:33,565 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:33,567 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test19
+2023-05-03 11:27:33,568 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {663.000000, 374.000000} and board coordinates {274.500000, 286.000000}
+2023-05-03 11:27:34,458 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {668.000000, 375.000000} and board coordinates {279.500000, 287.000000}
+2023-05-03 11:27:35,074 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:35,076 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test20
+2023-05-03 11:27:35,077 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {713.000000, 373.000000} and board coordinates {324.500000, 285.000000}
+2023-05-03 11:27:35,857 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {717.000000, 373.000000} and board coordinates {328.500000, 285.000000}
+2023-05-03 11:27:38,631 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:38,633 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test21
+2023-05-03 11:27:38,634 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {767.000000, 373.000000} and board coordinates {378.500000, 285.000000}
+2023-05-03 11:27:39,641 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {768.000000, 373.000000} and board coordinates {379.500000, 285.000000}
+2023-05-03 11:27:40,449 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:40,450 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test22
+2023-05-03 11:27:40,451 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {808.000000, 373.000000} and board coordinates {419.500000, 285.000000}
+2023-05-03 11:27:42,258 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {816.000000, 378.000000} and board coordinates {427.500000, 290.000000}
+2023-05-03 11:27:44,523 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:44,528 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test23
+2023-05-03 11:27:44,530 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {566.000000, 428.000000} and board coordinates {177.500000, 340.000000}
+2023-05-03 11:27:45,816 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {570.000000, 426.000000} and board coordinates {181.500000, 338.000000}
+2023-05-03 11:27:46,609 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {569.000000, 428.000000} and board coordinates {180.500000, 340.000000}
+2023-05-03 11:27:47,107 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:47,112 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test24
+2023-05-03 11:27:47,113 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {609.000000, 428.000000} and board coordinates {220.500000, 340.000000}
+2023-05-03 11:27:47,825 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {617.000000, 427.000000} and board coordinates {228.500000, 339.000000}
+2023-05-03 11:27:48,315 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:48,318 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test25
+2023-05-03 11:27:48,319 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {673.000000, 427.000000} and board coordinates {284.500000, 339.000000}
+2023-05-03 11:27:48,950 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {664.000000, 428.000000} and board coordinates {275.500000, 340.000000}
+2023-05-03 11:27:49,499 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:49,507 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test26
+2023-05-03 11:27:49,510 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {719.000000, 427.000000} and board coordinates {330.500000, 339.000000}
+2023-05-03 11:27:50,882 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {718.000000, 427.000000} and board coordinates {329.500000, 339.000000}
+2023-05-03 11:27:51,574 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:51,576 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test27
+2023-05-03 11:27:51,578 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {760.000000, 425.000000} and board coordinates {371.500000, 337.000000}
+2023-05-03 11:27:53,044 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {765.000000, 427.000000} and board coordinates {376.500000, 339.000000}
+2023-05-03 11:27:53,791 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-03 11:27:53,795 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test28
+2023-05-03 11:27:53,798 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {816.000000, 428.000000} and board coordinates {427.500000, 340.000000}
+2023-05-03 11:28:11,958 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.TurnRule
+2023-05-03 11:28:11,983 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-03 11:28:12,012 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-03 11:28:33,730 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.DieMoveRule
+2023-05-03 11:28:33,788 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-03 11:28:33,817 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-03 11:28:44,813 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.FiniteBoardWinRule
+2023-05-03 11:28:44,824 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-03 11:28:44,868 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-03 11:28:51,096 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.NumberOfPlayersRule
+2023-05-03 11:28:51,106 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-03 11:28:51,137 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-03 11:34:50,314 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 11:34:54,712 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 11:34:54,726 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 11:35:55,095 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 11:35:57,335 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 11:35:57,344 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 11:35:58,426 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:35:59,322 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:36:00,151 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:27,073 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 11:40:28,264 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 11:40:28,273 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 11:40:29,585 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:30,161 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:30,626 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:31,388 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:31,933 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:32,417 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:32,862 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:33,295 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:33,907 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:34,328 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:34,824 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:35,261 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:35,909 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:36,475 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:36,953 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:37,283 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:37,463 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:37,626 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:37,906 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:38,104 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:38,446 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:38,642 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:39,308 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:39,498 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:39,744 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:39,981 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:40,392 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:40,640 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:40,799 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:40,954 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:41,198 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:41,616 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:41,779 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:41,957 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:42,105 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:42,259 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:42,415 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:42,555 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:42,975 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:43,113 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:43,277 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:43,432 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:43,709 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:43,881 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:44,030 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:44,178 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:44,330 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:44,488 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:44,620 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:45,167 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:45,545 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 11:40:45,840 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition

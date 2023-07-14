@@ -1,0 +1,50 @@
+2023-05-06 10:11:38,719 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@e27c90fe
+2023-05-06 10:11:38,748 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@e27c90fe
+2023-05-06 10:11:38,764 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@e27c90fe
+2023-05-06 10:11:38,779 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@e27c90fe
+2023-05-06 10:11:38,861 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-06 10:11:42,661 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-06 10:11:42,670 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-06 10:11:42,673 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:06,247 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@b18f275b
+2023-05-06 10:12:06,268 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@b18f275b
+2023-05-06 10:12:06,281 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@b18f275b
+2023-05-06 10:12:06,292 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@b18f275b
+2023-05-06 10:12:06,374 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-06 10:12:08,887 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-06 10:12:08,895 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-06 10:12:08,899 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:44,705 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-05-06 10:12:44,708 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:46,255 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:47,082 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-05-06 10:12:47,084 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:49,073 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:49,731 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:49,731 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-05-06 10:12:52,368 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:53,473 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@6e5729de
+2023-05-06 10:12:53,484 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@6e5729de
+2023-05-06 10:12:53,498 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@6e5729de
+2023-05-06 10:12:53,507 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@6e5729de
+2023-05-06 10:12:53,539 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-06 10:12:54,586 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-06 10:12:54,587 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-06 10:12:54,587 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:56,570 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-05-06 10:12:56,572 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:12:58,799 INFO o.m.e.a.r.LowScoreRemovalStrategy [JavaFX Application Thread] Player d8df6e7e-6681-4401-9a4d-1eb4f1861bb1 removed from game due to low score condition
+2023-05-06 10:13:01,176 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:13:01,177 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-05-06 10:13:07,282 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@2faf6f77
+2023-05-06 10:13:07,296 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@2faf6f77
+2023-05-06 10:13:07,305 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@2faf6f77
+2023-05-06 10:13:07,315 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@2faf6f77
+2023-05-06 10:13:07,353 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-06 10:13:14,453 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-06 10:13:14,454 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-06 10:13:14,455 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:13:19,836 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-05-06 10:13:19,842 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-06 10:13:20,836 INFO o.m.e.a.r.LowScoreRemovalStrategy [JavaFX Application Thread] Player f0b5c4a1-ce05-4089-8f5b-f2271637ab5c removed from game due to low score condition
+2023-05-06 10:13:21,660 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition

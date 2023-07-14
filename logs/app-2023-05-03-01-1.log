@@ -1,0 +1,208 @@
+2023-05-03 01:16:39,328 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/EhivfAWXzpAZCAEAdv9h/info.json
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "title" (class oogasalad.controller.GameInfo), not marked as ignorable (2 known properties: "width", "height"])
+ at [Source: (File); line: 2, column: 14] (through reference chain: oogasalad.controller.GameInfo["title"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1132) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2202) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1705) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1683) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:81) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 01:16:39,404 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:39,430 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:39,454 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:39,470 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:39,569 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 01:16:44,985 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 01:16:45,014 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 01:16:45,022 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:47,397 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1750.0
+2023-05-03 01:16:47,402 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:49,993 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:51,535 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:51,537 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-03 01:16:51,537 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:51,537 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-03 01:16:51,537 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist default
+2023-05-03 01:16:51,538 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@1eda27d8
+2023-05-03 01:16:55,206 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1750.0
+2023-05-03 01:16:55,208 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:56,911 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:57,648 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1750.0
+2023-05-03 01:16:57,649 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:58,858 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:59,801 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:16:59,807 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Updating player score for player: 15dd281b-c9ce-498a-9b90-0f6c89f04609
+2023-05-03 01:17:05,588 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Player score updated to: 1750.0
+2023-05-03 01:17:05,590 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Updating player score for player: a1f8b70d-3d8d-4fe3-9080-e7eb82caaa39
+2023-05-03 01:17:07,328 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Player score updated to: 2000.0
+2023-05-03 01:17:07,333 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:09,785 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-05-03 01:17:09,786 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:11,203 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:12,415 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:12,417 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:12,976 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1400.0
+2023-05-03 01:17:12,977 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:14,438 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:15,180 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:15,182 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:15,754 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1200.0
+2023-05-03 01:17:15,756 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:17,432 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:18,163 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1650.0
+2023-05-03 01:17:18,166 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:19,402 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:24,248 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1050.0
+2023-05-03 01:17:24,249 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:25,786 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:27,159 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:17:27,160 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Updating player score for player: 15dd281b-c9ce-498a-9b90-0f6c89f04609
+2023-05-03 01:17:28,207 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Player score updated to: 1400.0
+2023-05-03 01:17:28,210 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Updating player score for player: a1f8b70d-3d8d-4fe3-9080-e7eb82caaa39
+2023-05-03 01:17:31,570 INFO o.m.e.a.s.AlterPlayerScoreAction [JavaFX Application Thread] Player score updated to: 1550.0
+2023-05-03 01:17:31,573 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:18:19,104 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/EhivfAWXzpAZCAEAdv9h/info.json
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "title" (class oogasalad.controller.GameInfo), not marked as ignorable (2 known properties: "width", "height"])
+ at [Source: (File); line: 2, column: 14] (through reference chain: oogasalad.controller.GameInfo["title"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1132) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2202) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1705) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1683) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:81) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 01:18:19,173 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@8e7e62b4
+2023-05-03 01:18:19,197 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@8e7e62b4
+2023-05-03 01:18:19,216 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@8e7e62b4
+2023-05-03 01:18:19,237 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@8e7e62b4
+2023-05-03 01:18:19,336 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 01:18:20,725 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 01:18:20,739 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 01:18:20,744 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:18:37,411 ERROR o.u.SaveManager [JavaFX Application Thread] unable to read save file data/games/EhivfAWXzpAZCAEAdv9h/info.json
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "title" (class oogasalad.controller.GameInfo), not marked as ignorable (2 known properties: "width", "height"])
+ at [Source: (File); line: 2, column: 14] (through reference chain: oogasalad.controller.GameInfo["title"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1132) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2202) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1705) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1683) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.2.jar:2.14.2]
+	at oogasalad.util.SaveManager.readFile(SaveManager.java:176) ~[classes/:?]
+	at oogasalad.util.SaveManager.loadGame(SaveManager.java:81) ~[classes/:?]
+	at oogasalad.controller.GameController.<init>(GameController.java:40) ~[classes/:?]
+	at oogasalad.view.tabexplorer.TabExplorer.launchGame(TabExplorer.java:189) ~[classes/:?]
+	at oogasalad.view.tabexplorer.tabs.GameLauncherTab.lambda$buildGameList$4(GameLauncherTab.java:175) ~[classes/:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx.base:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx.base:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base:?]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602) ~[javafx.graphics:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3906) ~[javafx.graphics:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx.graphics:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) [javafx.graphics:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) [javafx.graphics:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) [javafx.graphics:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx.graphics:?]
+2023-05-03 01:18:37,436 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@878dea63
+2023-05-03 01:18:37,446 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@878dea63
+2023-05-03 01:18:37,465 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@878dea63
+2023-05-03 01:18:37,483 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@878dea63
+2023-05-03 01:18:37,528 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-03 01:18:39,042 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-03 01:18:39,045 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-03 01:18:39,048 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:18:43,215 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1750.0
+2023-05-03 01:18:43,222 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:18:44,388 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:18:49,218 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1750.0
+2023-05-03 01:18:49,220 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-03 01:18:50,254 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition

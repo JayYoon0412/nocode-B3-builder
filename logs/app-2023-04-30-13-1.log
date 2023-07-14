@@ -1,0 +1,40 @@
+2023-04-30 13:11:02,215 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:11:02,221 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:11:02,294 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:11:02,294 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:11:02,732 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-30 13:11:11,808 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:11:11,810 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:11:11,849 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:11:11,849 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:11:12,127 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 13:11:13,948 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 13:11:13,965 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 13:11:15,181 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:16,316 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:16,738 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:17,139 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:17,574 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:17,965 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:18,424 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:18,837 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:19,349 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:19,827 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-04-30 13:11:19,843 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:11:21,635 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player b2d06269-f9af-44fc-a2d8-ef226374534c Removed from Game Due to Low Score Condition
+2023-04-30 13:11:22,815 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 13:11:22,816 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-04-30 13:16:23,903 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:16:23,907 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:16:23,978 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:16:23,978 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:16:24,410 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-04-30 13:16:37,970 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:16:37,972 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 13:16:38,009 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:16:38,009 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 13:16:38,257 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 13:16:39,998 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 13:16:40,022 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 13:16:43,524 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 13:16:43,525 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Satisfied Condition, Ending Game

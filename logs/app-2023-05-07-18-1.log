@@ -1,0 +1,107 @@
+2023-05-07 18:54:50,882 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-05-07 18:55:14,750 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {477.000000, 195.000000} and board coordinates {88.500000, 107.000000}
+2023-05-07 18:55:14,780 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-07 18:55:16,179 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {636.000000, 226.000000} and board coordinates {247.500000, 138.000000}
+2023-05-07 18:55:16,185 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-07 18:55:17,219 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {580.000000, 213.000000} and board coordinates {191.500000, 125.000000}
+2023-05-07 18:55:17,223 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-07 18:55:18,225 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {538.000000, 214.000000} and board coordinates {149.500000, 126.000000}
+2023-05-07 18:55:18,227 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-07 18:55:18,810 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {702.000000, 259.000000} and board coordinates {313.500000, 171.000000}
+2023-05-07 18:55:18,815 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-07 18:55:26,283 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {502.000000, 218.000000} and board coordinates {113.500000, 130.000000}
+2023-05-07 18:55:28,976 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-07 18:55:28,997 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test0
+2023-05-07 18:55:28,999 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {557.000000, 231.000000} and board coordinates {168.500000, 143.000000}
+2023-05-07 18:55:29,738 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {563.000000, 232.000000} and board coordinates {174.500000, 144.000000}
+2023-05-07 18:55:30,217 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-07 18:55:30,222 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test1
+2023-05-07 18:55:30,223 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {607.000000, 232.000000} and board coordinates {218.500000, 144.000000}
+2023-05-07 18:55:30,870 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {602.000000, 236.000000} and board coordinates {213.500000, 148.000000}
+2023-05-07 18:55:31,785 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-07 18:55:31,791 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test2
+2023-05-07 18:55:31,793 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {721.000000, 280.000000} and board coordinates {332.500000, 192.000000}
+2023-05-07 18:55:32,363 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {728.000000, 283.000000} and board coordinates {339.500000, 195.000000}
+2023-05-07 18:55:33,125 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-07 18:55:33,126 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test3
+2023-05-07 18:55:33,128 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {662.000000, 241.000000} and board coordinates {273.500000, 153.000000}
+2023-05-07 18:55:41,406 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {462.000000, 230.000000} and board coordinates {92.500000, 142.000000}
+2023-05-07 18:55:42,285 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {480.000000, 223.000000} and board coordinates {110.500000, 135.000000}
+2023-05-07 18:55:42,499 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {481.000000, 223.000000} and board coordinates {111.500000, 135.000000}
+2023-05-07 18:55:55,418 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,421 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,421 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist s
+2023-05-07 18:55:55,602 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,603 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,603 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist st
+2023-05-07 18:55:55,792 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,793 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,793 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist str
+2023-05-07 18:55:55,879 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,880 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:55,880 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist stre
+2023-05-07 18:55:56,580 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:56,581 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:56,581 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist stree
+2023-05-07 18:55:56,807 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:56,808 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:55:56,808 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-07 18:56:16,902 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.TurnRule
+2023-05-07 18:56:16,921 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-07 18:56:16,954 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:56:16,954 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-07 18:56:16,956 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-07 18:56:32,174 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.LastStandingWinRule
+2023-05-07 18:56:32,187 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-07 18:56:32,218 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:56:32,218 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-07 18:56:32,219 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-07 18:56:37,999 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.FiniteBoardWinRule
+2023-05-07 18:56:38,003 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-07 18:56:38,024 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:56:38,024 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-07 18:56:38,027 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-07 18:56:48,465 INFO o.c.BuilderController [JavaFX Application Thread] Chose to edit rule oogasalad.model.engine.rules.NumberOfPlayersRule
+2023-05-07 18:56:48,477 INFO o.c.BuilderController [JavaFX Application Thread] New rule created
+2023-05-07 18:56:48,497 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist basic
+2023-05-07 18:56:48,498 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist street
+2023-05-07 18:56:48,499 INFO o.c.BuilderController [JavaFX Application Thread] New rule added to GameHolder
+2023-05-07 18:57:02,594 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@662fe0b
+2023-05-07 18:57:02,626 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@662fe0b
+2023-05-07 18:57:02,637 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@662fe0b
+2023-05-07 18:57:02,646 INFO o.m.c.AbstractGameConstruct [JavaFX Application Thread] attribute Game Construct Attribute {value: ObjectProperty [value: Optional.empty]} invalid for metadata oogasalad.model.attribute.TileMetadata@662fe0b
+2023-05-07 18:57:02,717 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-07 18:57:10,062 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-07 18:57:10,072 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-07 18:57:10,074 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:57:20,152 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-05-07 18:57:20,157 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:57:30,922 INFO o.m.e.a.r.LowScoreRemovalStrategy [JavaFX Application Thread] Player 1a2af89f-2b5b-42fb-8b3f-819e66e9f65a removed from game due to low score condition
+2023-05-07 18:57:33,350 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:57:34,453 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-05-07 18:57:34,456 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:57:35,934 INFO o.m.e.a.r.LowScoreRemovalStrategy [JavaFX Application Thread] Player 9f577d37-f116-460c-8c2f-a758e62fa242 removed from game due to low score condition
+2023-05-07 18:57:36,581 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:57:36,582 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-05-07 18:57:50,116 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-05-07 18:57:51,276 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-05-07 18:57:51,277 INFO o.m.e.a.c.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-05-07 18:58:00,388 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:01,997 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:02,595 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:04,205 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:04,612 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:04,987 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:05,242 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:05,452 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:05,610 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:05,817 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:06,154 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:06,522 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:06,706 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:06,911 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:07,127 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:07,394 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:07,637 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:07,953 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Winning Condition
+2023-05-07 18:58:07,954 INFO o.m.e.a.w.CheckWinAndEndAction [JavaFX Application Thread] Satisfied Condition, Ending Game

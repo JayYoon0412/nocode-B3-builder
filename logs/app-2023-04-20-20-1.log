@@ -1,0 +1,4 @@
+2023-04-20 20:32:24,403 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3e5a4838] added to queue with priority 0
+2023-04-20 20:32:36,611 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3e5a4838] added to queue with priority 0
+2023-04-20 20:32:55,806 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3e5a4838] added to queue with priority 0
+2023-04-20 20:33:17,035 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=oogasalad.model.engine.events.StartGameEvent@3e5a4838] added to queue with priority 0

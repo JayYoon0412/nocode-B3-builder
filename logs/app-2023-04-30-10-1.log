@@ -1,0 +1,75 @@
+2023-04-30 10:48:50,705 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 10:48:50,713 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 10:48:51,031 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 10:48:52,874 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 10:48:52,883 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 10:48:54,047 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 2000.0
+2023-04-30 10:48:57,423 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 10:48:59,075 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 10:49:00,704 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1100.0
+2023-04-30 10:49:02,479 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1000.0
+2023-04-30 10:49:04,550 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:06,102 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:07,659 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 10:49:09,798 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 300.0
+2023-04-30 10:49:11,861 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:12,772 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:13,886 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 550.0
+2023-04-30 10:49:20,968 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1300.0
+2023-04-30 10:49:22,630 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 200.0
+2023-04-30 10:49:24,745 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 950.0
+2023-04-30 10:49:26,786 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 200.0
+2023-04-30 10:49:28,688 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 950.0
+2023-04-30 10:49:32,498 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:33,879 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:36,097 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 200.0
+2023-04-30 10:49:38,291 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:40,104 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:45,507 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:46,957 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:50,986 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 450.0
+2023-04-30 10:49:53,240 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 450.0
+2023-04-30 10:49:54,934 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:56,345 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:49:58,109 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:50:00,040 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:50:01,783 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-04-30 10:50:04,963 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 550.0
+2023-04-30 10:50:08,789 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:50:10,694 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:50:12,225 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:50:14,589 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:50:15,276 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player b71a2c4d-39c9-4069-9e3c-641b56e08598 Removed from Game Due to Low Score Condition
+2023-04-30 10:51:17,609 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 10:51:17,612 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 10:51:17,912 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 10:51:18,812 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 10:51:18,842 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 10:51:19,577 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 10:51:21,722 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 2000.0
+2023-04-30 10:51:23,630 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1000.0
+2023-04-30 10:51:26,526 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1550.0
+2023-04-30 10:51:28,311 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 450.0
+2023-04-30 10:51:30,120 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 1000.0
+2023-04-30 10:51:32,029 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 450.0
+2023-04-30 10:51:33,999 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:51:35,877 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:51:37,337 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 750.0
+2023-04-30 10:51:42,429 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:51:43,623 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:51:44,999 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 650.0
+2023-04-30 10:51:47,439 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:51:48,547 INFO o.m.e.a.AlterPlayerScoreAction [JavaFX Application Thread] Update Player Score
+2023-04-30 10:51:49,071 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player 9fae2763-d357-4b66-a64f-259573849aab Removed from Game Due to Low Score Condition
+2023-04-30 10:51:50,059 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Winning Condition
+2023-04-30 10:51:50,059 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-04-30 10:53:58,995 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 10:53:59,012 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 10:53:59,317 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 10:54:01,965 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 10:54:01,982 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 10:54:09,518 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 250.0
+2023-04-30 10:54:12,552 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-04-30 10:54:13,962 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player 0dfa85bf-fa08-469b-9eb4-dbc41936eb14 Removed from Game Due to Low Score Condition
+2023-04-30 10:54:15,811 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Winning Condition
+2023-04-30 10:54:15,812 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Satisfied Condition, Ending Game

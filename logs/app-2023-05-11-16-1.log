@@ -1,0 +1,19 @@
+2023-05-11 16:10:31,385 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Initialized board pane successfully.
+2023-05-11 16:10:31,427 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Initialized rule pane successfully.
+2023-05-11 16:10:31,904 INFO o.c.BuilderController [JavaFX Application Thread] created builder
+2023-05-11 16:10:33,413 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {594.500000, 372.000000} and board coordinates {150.000000, 150.000000}
+2023-05-11 16:10:33,435 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-11 16:10:33,441 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Successfully created tile e850f293-179a-4e65-aa04-e70e71c6a960
+2023-05-11 16:10:33,829 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {694.500000, 472.000000} and board coordinates {250.000000, 250.000000}
+2023-05-11 16:10:33,837 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-11 16:10:33,840 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Successfully created tile 7f2d692d-8b57-49bd-9ea0-616563bf590f
+2023-05-11 16:10:34,244 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {794.500000, 572.000000} and board coordinates {350.000000, 350.000000}
+2023-05-11 16:10:34,252 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-11 16:10:34,254 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Successfully created tile 99a3f443-241f-49a7-93d3-2b80186ccd80
+2023-05-11 16:10:34,653 INFO o.v.b.BuilderView [JavaFX Application Thread] User clicked on board at scene coordinates {894.500000, 672.000000} and board coordinates {450.000000, 450.000000}
+2023-05-11 16:10:34,654 INFO o.c.BuilderController [JavaFX Application Thread] added tile
+2023-05-11 16:10:34,656 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Successfully created tile bbbad78f-407d-4701-9584-760dd25b8d5e
+2023-05-11 16:10:36,094 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Clicked on tile e850f293-179a-4e65-aa04-e70e71c6a960
+2023-05-11 16:10:36,493 DEBUG o.v.b.BuilderView [JavaFX Application Thread] Clicked on tile 7f2d692d-8b57-49bd-9ea0-616563bf590f
+2023-05-11 16:10:36,497 INFO o.c.BuilderController [JavaFX Application Thread] added next attribute to tile
+2023-05-11 16:10:36,537 INFO o.c.b.TrailMaker [JavaFX Application Thread] Created a new trail of ID: test0

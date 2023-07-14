@@ -1,0 +1,14 @@
+2023-04-12 20:03:51,797 ERROR o.m.c.GameConstruct [JavaFX Application Thread] tried to set height to class oogasalad.model.attribute.IntAttribute when schema requires class oogasalad.model.attribute.DoubleAttribute
+2023-04-12 20:59:56,415 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_GAME, attributeMap={}]] added to queue with priority 0
+2023-04-12 20:59:56,448 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=Event[type=START_GAME, attributeMap={}]]
+2023-04-12 20:59:56,448 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=Event[type=START_GAME, attributeMap={}]]
+2023-04-12 20:59:56,451 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=START_GAME, attributeMap={}]
+2023-04-12 20:59:56,451 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_TURN, attributeMap={}]] added to queue with priority 10
+2023-04-12 20:59:56,451 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 20:59:56,452 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action EventAction[event=Event[type=START_TURN, attributeMap={}]]
+2023-04-12 20:59:56,452 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=START_TURN, attributeMap={}]
+2023-04-12 20:59:56,452 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action EventAction[event=Event[type=START_TURN, attributeMap={}]] added to queue with priority 10
+2023-04-12 20:59:56,452 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] action oogasalad.model.engine.actions.RollDieAndMoveAction@3c94d208 added to queue with priority 1
+2023-04-12 20:59:56,457 TRACE o.m.e.SimpleActionQueue [JavaFX Application Thread] polled oogasalad.model.engine.actions.RollDieAndMoveAction@3c94d208
+2023-04-12 20:59:56,458 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] running action oogasalad.model.engine.actions.RollDieAndMoveAction@3c94d208
+2023-04-12 20:59:58,864 TRACE o.m.e.SimpleEngine [JavaFX Application Thread] triggering event Event[type=DIE_ROLLED, attributeMap={value=oogasalad.model.attribute.IntAttribute@49f210d6}]

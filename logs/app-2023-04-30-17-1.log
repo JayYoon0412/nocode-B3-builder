@@ -1,0 +1,229 @@
+2023-04-30 17:12:29,940 FATAL o.m.a.AbstractAttribute [main] failed to perform attribute cast
+java.lang.ClassCastException: Cannot cast oogasalad.model.attribute.Attribute$MockitoMock$v258rIvt to oogasalad.model.attribute.AbstractAttributeTest$MockAttribute
+	at java.lang.Class.cast(Class.java:3889) ~[?:?]
+	at oogasalad.model.attribute.AbstractAttribute.getAs(AbstractAttribute.java:21) ~[classes/:?]
+	at oogasalad.model.attribute.AbstractAttributeTest.testGetAs(AbstractAttributeTest.java:33) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 17:12:34,356 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:12:34,361 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:12:34,361 INFO o.m.e.a.CheckTileWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:12:34,372 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:12:34,374 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:12:34,375 INFO o.m.e.a.CheckTileWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:12:34,415 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:12:34,424 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:12:34,430 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:12:35,004 INFO o.m.e.a.CheckStandingWinAction [main] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:12:35,008 INFO o.m.e.a.CheckStandingWinAction [main] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:12:35,008 INFO o.m.e.a.CheckStandingWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:12:35,155 INFO o.m.e.a.CreatePlayersAction [main] Create Game Players upon User Selection
+2023-04-30 17:12:35,156 INFO o.m.e.a.CreatePlayersAction [main] Emit Player Creation Event
+2023-04-30 17:12:35,213 INFO o.m.e.a.CreatePlayersAction [main] Create Game Players upon User Selection
+2023-04-30 17:12:35,214 INFO o.m.e.a.CreatePlayersAction [main] Emit Player Creation Event
+2023-04-30 17:12:36,099 ERROR o.m.a.SimpleSchemaDatabase [main] Conflict with resource schema tile
+2023-04-30 17:12:36,100 INFO o.m.a.SimpleSchemaDatabase [main] Replacing schema name !s1
+2023-04-30 17:12:36,224 INFO o.m.e.a.AlterPlayerScoreAction [main] Update Player Score
+2023-04-30 17:17:59,660 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-04-30 17:18:39,958 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-04-30 17:20:30,315 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 17:20:30,318 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 17:20:30,381 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 17:20:30,381 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 17:20:30,591 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 17:20:31,898 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 17:20:31,909 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 17:21:31,101 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 17:21:31,105 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [scoreTileRule]
+2023-04-30 17:21:31,171 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 17:21:31,171 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [finiteBoardWinRule]
+2023-04-30 17:21:31,410 INFO o.m.e.r.NumberOfPlayersRule [JavaFX Application Thread] Add Create Players Action to ActionQueue
+2023-04-30 17:21:32,655 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Create Game Players upon User Selection
+2023-04-30 17:21:32,687 INFO o.m.e.a.CreatePlayersAction [JavaFX Application Thread] Emit Player Creation Event
+2023-04-30 17:21:33,567 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:34,065 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:34,741 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:35,314 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:35,841 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:36,238 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:36,608 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:36,915 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:37,073 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:37,449 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:37,609 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:37,749 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:37,908 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:38,199 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:38,528 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:38,824 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:39,049 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-04-30 17:21:39,071 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:40,901 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player 6add2294-a2d8-4cb7-8e7d-38ac6fe8b5f5 Removed from Game Due to Low Score Condition
+2023-04-30 17:21:41,883 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:21:43,798 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:44,616 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:45,489 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] Prompted User to Buy Property with Remaining Money 0.0
+2023-04-30 17:21:45,493 INFO o.m.e.a.CheckTileWinAction [JavaFX Application Thread] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:21:47,229 INFO o.m.e.a.CheckAndRemovePlayerAction [JavaFX Application Thread] Player 98ecb4fb-a970-44db-b972-5a02b20f3e54 Removed from Game Due to Low Score Condition
+2023-04-30 17:21:48,085 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:21:48,085 INFO o.m.e.a.CheckStandingWinAction [JavaFX Application Thread] Satisfied Condition, Ending Game
+2023-04-30 17:25:17,784 FATAL o.m.a.AbstractAttribute [main] failed to perform attribute cast
+java.lang.ClassCastException: Cannot cast oogasalad.model.attribute.Attribute$MockitoMock$gAKD1x4O to oogasalad.model.attribute.AbstractAttributeTest$MockAttribute
+	at java.lang.Class.cast(Class.java:3889) ~[?:?]
+	at oogasalad.model.attribute.AbstractAttribute.getAs(AbstractAttribute.java:21) ~[classes/:?]
+	at oogasalad.model.attribute.AbstractAttributeTest.testGetAs(AbstractAttributeTest.java:33) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 17:25:22,433 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:25:22,438 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:25:22,438 INFO o.m.e.a.CheckTileWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:25:22,451 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:25:22,454 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:25:22,454 INFO o.m.e.a.CheckTileWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:25:22,488 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:25:22,497 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:25:22,506 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:25:23,202 INFO o.m.e.a.CheckStandingWinAction [main] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:25:23,206 INFO o.m.e.a.CheckStandingWinAction [main] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:25:23,206 INFO o.m.e.a.CheckStandingWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:25:23,370 INFO o.m.e.a.CreatePlayersAction [main] Create Game Players upon User Selection
+2023-04-30 17:25:23,380 INFO o.m.e.a.CreatePlayersAction [main] Emit Player Creation Event
+2023-04-30 17:25:23,441 INFO o.m.e.a.CreatePlayersAction [main] Create Game Players upon User Selection
+2023-04-30 17:25:23,441 INFO o.m.e.a.CreatePlayersAction [main] Emit Player Creation Event
+2023-04-30 17:25:24,349 ERROR o.m.a.SimpleSchemaDatabase [main] Conflict with resource schema tile
+2023-04-30 17:25:24,351 INFO o.m.a.SimpleSchemaDatabase [main] Replacing schema name !s1
+2023-04-30 17:25:24,682 INFO o.m.e.a.AlterPlayerScoreAction [main] Update Player Score
+2023-04-30 17:36:45,154 FATAL o.m.a.AbstractAttribute [main] failed to perform attribute cast
+java.lang.ClassCastException: Cannot cast oogasalad.model.attribute.Attribute$MockitoMock$4ozx899r to oogasalad.model.attribute.AbstractAttributeTest$MockAttribute
+	at java.lang.Class.cast(Class.java:3889) ~[?:?]
+	at oogasalad.model.attribute.AbstractAttribute.getAs(AbstractAttribute.java:21) ~[classes/:?]
+	at oogasalad.model.attribute.AbstractAttributeTest.testGetAs(AbstractAttributeTest.java:33) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72) ~[junit-vintage-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2023-04-30 17:36:49,778 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:36:49,781 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:36:49,781 INFO o.m.e.a.CheckTileWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:36:49,789 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:36:49,792 INFO o.m.e.a.CheckTileWinAction [main] Checking if Current Game Player Status Satisfies Tile Winning Condition
+2023-04-30 17:36:49,792 INFO o.m.e.a.CheckTileWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:36:49,824 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:36:49,836 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:36:49,842 INFO o.m.e.a.CheckAndRemovePlayerAction [main] Player player1 Removed from Game Due to Low Score Condition
+2023-04-30 17:36:50,430 INFO o.m.e.a.CheckStandingWinAction [main] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:36:50,433 INFO o.m.e.a.CheckStandingWinAction [main] Checking if Current Game Players Status Satisfies Standing Winning Condition
+2023-04-30 17:36:50,433 INFO o.m.e.a.CheckStandingWinAction [main] Satisfied Condition, Ending Game
+2023-04-30 17:36:50,583 INFO o.m.e.a.CreatePlayersAction [main] Create Game Players upon User Selection
+2023-04-30 17:36:50,583 INFO o.m.e.a.CreatePlayersAction [main] Emit Player Creation Event
+2023-04-30 17:36:50,632 INFO o.m.e.a.CreatePlayersAction [main] Create Game Players upon User Selection
+2023-04-30 17:36:50,632 INFO o.m.e.a.CreatePlayersAction [main] Emit Player Creation Event
+2023-04-30 17:36:51,470 ERROR o.m.a.SimpleSchemaDatabase [main] Conflict with resource schema tile
+2023-04-30 17:36:51,471 INFO o.m.a.SimpleSchemaDatabase [main] Replacing schema name !s1
+2023-04-30 17:36:51,630 INFO o.m.e.a.AlterPlayerScoreAction [main] Update Player Score

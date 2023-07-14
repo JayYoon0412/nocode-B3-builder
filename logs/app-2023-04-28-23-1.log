@@ -1,0 +1,9 @@
+2023-04-28 23:00:42,025 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
+2023-04-28 23:00:44,822 INFO o.m.e.r.BuyTileRule [JavaFX Application Thread] prompted to buy property with remaining money 1650.0
+2023-04-28 23:02:32,398 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
+2023-04-28 23:06:18,085 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
+2023-04-28 23:07:09,322 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
+2023-04-28 23:14:09,018 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
+2023-04-28 23:14:17,162 WARN o.m.e.SimpleEngine [JavaFX Application Thread] game ran out of actions
+2023-04-28 23:28:07,229 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
+2023-04-28 23:28:53,329 WARN o.m.c.AbstractGameConstruct [JavaFX Application Thread] schema does not exist [numberOfPlayersRule]
