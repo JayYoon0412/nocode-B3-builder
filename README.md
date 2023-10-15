@@ -13,6 +13,9 @@ project is as follows:
 - Data is encapsulated within a `Metadata` class so that many types of objects can be edited via a
   generic option pane
 
+![Screenshot 2023-04-29 at 9 20 43 PM](https://github.com/JayYoon0412/nocode-B3-builder/assets/90667275/246eb980-7c3d-459b-891c-53400220b344)
+
+
 ## Design Primary Architecture
 
 ![Main](https://user-images.githubusercontent.com/90667275/229265134-a38ef80b-a7cd-43fd-8ceb-aa34899c8d34.jpg)
